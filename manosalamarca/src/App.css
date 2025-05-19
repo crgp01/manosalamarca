@@ -1,0 +1,69 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  color: black;
+}
+
+p {
+  color: black;
+  font-family: Sunday;
+}
+.main_section{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.logo {
+  height: 30em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+
+.contact_button {
+  font-family: Sunday;
+  font-size: 30px;
+  color: white;
+  background-color: #c68830;
+  padding: 15px;
+  border-radius: 15px;
+}
+.contact_button:hover {
+  filter: drop-shadow(0 0 2em #c2862f);
+  color: white
+}
+
+.read-the-docs {
+  color: #888;
+}
+.text_title {
+
+  font-size: 30px;
+  max-width: 500px;
+  font-style:italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
