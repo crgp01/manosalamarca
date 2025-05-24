@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import manosAlaMarca from './assets/en_construccion.png'
 import './App.css'
 
